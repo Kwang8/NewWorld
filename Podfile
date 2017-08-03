@@ -6,7 +6,8 @@ target 'ExploreWorld_1.0' do
   use_frameworks!
 
   # Pods for ExploreWorld_1.0
-pod 'Firebase/Auth'
-pod 'FirebaseUI/Auth'
-pod 'Firebase/Database'
+  pod 'Firebase/Core'
+  pod 'Firebase/Auth'
+  pod 'Firebase/Database'
+  pod 'Firebase/Storage'
 end

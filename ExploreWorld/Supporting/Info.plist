@@ -20,16 +20,16 @@
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>NSLocationAlwaysUsageDescription</key>
+	<string>We need to see your location to show you nearby structures and to allow you to point out structuers </string>
+	<key>NSLocationUsageDescription</key>
+	<string>We need to see your location to show you nearby structures and to allow you to point out structuers </string>
+	<key>NSLocationWhenInUseUsageDescription</key>
+	<string>Allow ExploreWorld to accsess your location(it is required)</string>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>
 	<string>Main</string>
-	<key>NSLocationWhenInUseUsageDescription</key>
-	<string>Allow ExploreWorld to accsess your location(it is required)</string>
-	<key>NSLocationUsageDescription</key>
-	<string>We need to see your location to show you nearby structures and to allow you to point out structuers </string>
-	<key>NSLocationAlwaysUsageDescription</key>
-	<string>We need to see your location to show you nearby structures and to allow you to point out structuers </string>
 	<key>UIRequiredDeviceCapabilities</key>
 	<array>
 		<string>armv7</string>

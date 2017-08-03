@@ -4,11 +4,6 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>FirebaseUI-FirebaseAuthUI.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>GTMSessionFetcher.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,17 +27,12 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>3380590F973AFAFA30255D504B7DEDAC</key>
+		<key>77B7A6A3D54DE29DA8845767F637C4F9</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>C052BEBFBD0AB5218CC64BA3450F6547</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C5C0CC9C5904E7A4B46DDB0A8DD60E9B</key>
 		<dict>
 			<key>primary</key>
 			<true/>
