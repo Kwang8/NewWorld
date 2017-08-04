@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2E611ABF1F2B823400B9087F /* PinService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E611ABE1F2B823400B9087F /* PinService.swift */; };
 		2E9CF3311F2A421500D54089 /* CreatePinController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9CF31C1F2A421500D54089 /* CreatePinController.swift */; };
-		2E9CF3341F2A421500D54089 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E9CF31F1F2A421500D54089 /* ViewController.swift */; };
 		2E9CF3351F2A421500D54089 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2E9CF3211F2A421500D54089 /* GoogleService-Info.plist */; };
 		2E9CF3371F2A421500D54089 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9CF3241F2A421500D54089 /* LaunchScreen.storyboard */; };
 		2E9CF3381F2A421500D54089 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E9CF3251F2A421500D54089 /* Main.storyboard */; };
@@ -325,7 +324,6 @@
 				2E9CF3451F2A586800D54089 /* LoginViewController.swift in Sources */,
 				2E9CF33B1F2A421500D54089 /* Pin.swift in Sources */,
 				2E9CF3311F2A421500D54089 /* CreatePinController.swift in Sources */,
-				2E9CF3341F2A421500D54089 /* ViewController.swift in Sources */,
 				2E9CF34F1F2A58A800D54089 /* Storyboard+Utility.swift in Sources */,
 				2E9CF33F1F2A421500D54089 /* AppDelegate.swift in Sources */,
 				2E9CF3521F2A635700D54089 /* UserService.swift in Sources */,

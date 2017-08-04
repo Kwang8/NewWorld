@@ -127,7 +127,6 @@ class CreatePinController: UIViewController{
     }
     
     
-    
     @IBAction func submitButtonPressed(_ sender: Any) {
         let pinQuality=(UserDefaults.standard.object(forKey: "Quality") as! Double? ?? 9.0)
         let pinType=(UserDefaults.standard.object(forKey: "segmentType") as! String? ?? "")

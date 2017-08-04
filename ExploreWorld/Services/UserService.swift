@@ -37,6 +37,15 @@ struct UserService {
             completion(user)
         })
     }
+    static func showUid(completion: @escaping (User?) -> Void) {
+        let ref = Database.database().reference().child("users")
+        ref.observeSingleEvent(of: .value, with: { (snapshot) in
+            guard let user = User(snapshot: snapshot) else {
+                return completion(nil)
+            }
+            completion(user)
+        })
+    }
     
     static func deleteUser(forUID uid: String, success: @escaping (Bool) -> Void) {
         let ref = Database.database().reference().child("users")

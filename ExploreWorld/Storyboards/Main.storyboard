@@ -13,7 +13,7 @@
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ExploreWorld_1_0" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -93,6 +93,7 @@
                     <connections>
                         <outlet property="mapView" destination="J5P-gd-Ko5" id="Gr7-Fd-6bM"/>
                         <outlet property="rangeSlider" destination="DFz-E0-QUG" id="08k-eF-M6m"/>
+                        <outlet property="refreshButton" destination="Zwv-q2-lCx" id="KlW-mm-2Wm"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -216,7 +217,7 @@
                     <connections>
                         <outlet property="otherSegmentType" destination="BMt-cM-bhr" id="HAp-gF-nWm"/>
                         <outlet property="qualitySegment" destination="l9Q-pw-mun" id="eS2-pG-hwT"/>
-                        <outlet property="typeOfMarkSegment" destination="gyH-Ah-xCV" id="LRS-Uw-6tI"/>
+                        <outlet property="typeOfMarkSegment" destination="gyH-Ah-xCV" id="Xh6-hI-Xg5"/>
                         <outlet property="typeSegment" destination="gyH-Ah-xCV" id="mgJ-6g-6uE"/>
                     </connections>
                 </viewController>
