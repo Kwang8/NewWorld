@@ -20,7 +20,7 @@ struct PinService{
                     "latitude":latitude,
                     "subtitle":subtitle,
                     "title":title] as [String : Any]
-    
+        
         refOne.setValue(arrPin) { (error, refOne) in
             if let error = error {
                 assertionFailure(error.localizedDescription)
@@ -34,9 +34,9 @@ struct PinService{
             
             
         }
-    
         
-    
+        
+        
     }
     static func createPinAll(longitude:Double,latitude:Double,title:String,subtitle:String, completion: @escaping (Pin?) -> Void){
         
@@ -61,13 +61,13 @@ struct PinService{
         
         
     }
-
-        
-        
+    
+    
+    
     
     static func showAll(completion: @escaping ([Pin]?) -> Void) {
         
-    
+        
         let ref = Database.database().reference().child("allPins")
         
         
@@ -88,8 +88,8 @@ struct PinService{
     
     
     
-
-
+    
+    
     static func showOne(completion: @escaping ([Pin]?) -> Void) {
         
         
@@ -101,7 +101,7 @@ struct PinService{
         print(ref)
         ref.observeSingleEvent(of: .value, with: { (snapshot) in
             guard let snapshot = snapshot.children.allObjects as? [DataSnapshot] else {
-              return completion(nil)
+                return completion(nil)
                 
             }
             var items : [Pin] = []
@@ -113,7 +113,8 @@ struct PinService{
             completion(items)
         }
         )}
-
+    
     
     
 }
+
